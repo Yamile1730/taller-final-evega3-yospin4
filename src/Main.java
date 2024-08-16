@@ -1,11 +1,39 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
 
-        System.out.println("Prueba1");
-        System.out.println("yospin4");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("-------------------------------------------");
+
+                   System.out.println("MENU PRINCIPAL" );
+
+        System.out.println("-------------------------------------------");
+
+            System.out.println("1.Primeros Datos");
+            System.out.println("2.String");
+            System.out.println("3.Constantes");
+            System.out.println("4.Salir");
 
 
-        }
+        System.out.println("Seleccione una opcion");
+        int nota = scanner.nextInt();
+
+
+
+        int menu = scanner.nextInt();
+
+            switch (menu) {
+                case 1:
+                    System.out.println("1.Datos Primitivos");
+                    break;
+
+                case 2:
+                    System.out.println("2.String");
+                    break;
+                default:
+                    System.out.println("Número no válido, por favor verifique");
+            }
     }
+}
