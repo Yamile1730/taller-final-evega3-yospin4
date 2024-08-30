@@ -15,6 +15,8 @@ public class Main {
             System.out.println("2.String");
             System.out.println("3.Constantes");
             System.out.println("4.Salir");
+            System.out.println("5. Cambio");
+            System.out.println("6.Salir");
 
 
         System.out.println("Seleccione una opcion");
