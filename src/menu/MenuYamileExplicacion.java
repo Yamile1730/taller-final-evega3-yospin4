@@ -2,11 +2,11 @@ package menu;
 
 import java.util.Scanner;
 
-public class MenuExplicacion1 {
+public class MenuYamileExplicacion {
     private Scanner scanner;
-    private MenuPrincipal menuPrincipal
+    private MenuYamilePrincipal menuPrincipal
 
-    public MenuExplicacion1 (Scanner scanner, MenuPrincipal menuPrincipal) {
+    public MenuYamileExplicacion(Scanner scanner, MenuYamilePrincipal menuPrincipal) {
         this.scanner = scanner;
         this.menuPrincipal = menuPrincipal;
     }
