@@ -18,6 +18,9 @@ public class MenuExplicacion1 {
             System.out.println("------------------------------------------------");
             System.out.println("-        1. Explicacion byte                   -");
             System.out.println("-        2. Explicacion short                  -");
+            System.out.println("-        2. Explicacion short                  -");
+            System.out.println("-        2. Explicacion short                  -");
+            System.out.println("-        2. Explicacion short                  -");
             System.out.println("-        3. Explicacion int                    -");
             System.out.println("-        4. Explicacion long                   -");
             System.out.println("-        5. Explicacion float                  -");
