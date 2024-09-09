@@ -29,6 +29,8 @@ public class MenuExplicacion1 {
             System.out.println("-        8. Explicacion boolean                -");
             System.out.println("-        0. Salir                              -");
             System.out.println("------------------------------------------------");
+            System.out.println("------------------------------------------------");
+            System.out.println("------------------------------------------------");
             System.out.print("Digite una opcion: ");
             int opcion1 = scanner.nextInt();
 
