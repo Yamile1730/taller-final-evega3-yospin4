@@ -1,5 +1,6 @@
 package menu;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -7,5 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         MenuPrincipal menuPrincipal = new MenuPrincipal(scanner);
         menuPrincipal.mostrarMenu();
+        Random random = new Random();
     }
 }
