@@ -2,6 +2,7 @@ package menu;
 
 import java.lang.runtime.SwitchBootstraps;
 
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -43,6 +44,7 @@ public class MenuPrincipal {
                     break;
                 case 3:
                     explicacionConst();
+<<<<<<< HEAD
                     break;
                 case 4:
                     tipoOperadores();
@@ -65,6 +67,30 @@ public class MenuPrincipal {
                 case 10:
                     buclefor();
                     break;
+=======
+                    break;
+                case 4:
+                    tipoOperadores();
+                    break;
+                case 5:
+                    condicionales();
+                    break;
+                case 6:
+
+                    break;
+                case 7:
+
+                    break;
+                case 8:
+
+                    break;
+                case 9:
+
+                    break;
+                case 10:
+
+                    break;
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
                 case 0:
                     System.out.println("Saliendo del programa...");
                     return; // Salir del programa
@@ -163,7 +189,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionLong() {
+=======
+    private void mostrarExplicacionLong(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("------------------------------------------------");
         System.out.println("-               EXPLICACION LONG               -");
         System.out.println("------------------------------------------------");
@@ -175,7 +205,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionFloat() {
+=======
+    private void mostrarExplicacionFloat(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("------------------------------------------------");
         System.out.println("-               EXPLICACION FLOAT              -");
         System.out.println("------------------------------------------------");
@@ -187,7 +221,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionDouble() {
+=======
+    private void mostrarExplicacionDouble(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("------------------------------------------------");
         System.out.println("-              EXPLICACION DOUBLE              -");
         System.out.println("------------------------------------------------");
@@ -200,7 +238,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionChar() {
+=======
+    private void mostrarExplicacionChar(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("------------------------------------------------");
         System.out.println("-                EXPLICACION CHAR              -");
         System.out.println("------------------------------------------------");
@@ -211,7 +253,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionBoolean() {
+=======
+    private void mostrarExplicacionBoolean(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("------------------------------------------------");
         System.out.println("-              EXPLICACION BOOLEAN             -");
         System.out.println("------------------------------------------------");
@@ -250,7 +296,11 @@ public class MenuPrincipal {
         System.out.println("------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void tipoOperadores() {
+=======
+    private void tipoOperadores(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         while (true) {
             System.out.println("------------------------------------------------");
             System.out.println("-             TIPO DE OPERADORES               -");
@@ -265,7 +315,11 @@ public class MenuPrincipal {
             System.out.print("Digite una opcion: ");
             int opcion4 = scanner.nextInt();
 
+<<<<<<< HEAD
             switch (opcion4) {
+=======
+            switch(opcion4) {
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
                 case 1:
                     mostrarExplicacionAritmeticos();
                     break;
@@ -290,7 +344,10 @@ public class MenuPrincipal {
             }
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
     private void mostrarExplicacionAritmeticos() {
         System.out.println("---------------------------------------------------");
         System.out.println("-               OPERADORES ARITMÉTICOS            -");
@@ -384,7 +441,11 @@ public class MenuPrincipal {
 
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionAsignacion() {
+=======
+    private void mostrarExplicacionAsignacion(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("----------------------------------------------------");
         System.out.println("-               OPERADORES DE ASIGNACIÓN           -");
         System.out.println("----------------------------------------------------");
@@ -421,7 +482,11 @@ public class MenuPrincipal {
 
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionIncreDecre() {
+=======
+    private void mostrarExplicacionIncreDecre(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("--------------------------------------------------");
         System.out.println("-       OPERADORES DE INCREMENTO/DECREMENTO      -");
         System.out.println("--------------------------------------------------");
@@ -442,7 +507,11 @@ public class MenuPrincipal {
         System.out.println("--------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void condicionales() {
+=======
+    private void condicionales(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         while (true) {
             System.out.println("------------------------------------------------");
             System.out.println("-                CONDICIONALES                 -");
@@ -475,7 +544,11 @@ public class MenuPrincipal {
         }
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionIf() {
+=======
+    private void mostrarExplicacionIf(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("----------------------------------------------------");
         System.out.println("-                  EXPLICACION IF                  -");
         System.out.println("----------------------------------------------------");
@@ -490,7 +563,11 @@ public class MenuPrincipal {
         System.out.println("----------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionElse() {
+=======
+    private void mostrarExplicacionElse(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("---------------------------------------------------");
         System.out.println("-               EXPLICACION ELSE                  -");
         System.out.println("---------------------------------------------------");
@@ -506,7 +583,11 @@ public class MenuPrincipal {
         System.out.println("---------------------------------------------------");
     }
 
+<<<<<<< HEAD
     private void mostrarExplicacionElseIf() {
+=======
+    private void mostrarExplicacionElseIf(){
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
         System.out.println("----------------------------------------------------");
         System.out.println("-                EXPLICACION ELSE IF               -");
         System.out.println("----------------------------------------------------");
@@ -526,6 +607,7 @@ public class MenuPrincipal {
 
     }
 
+<<<<<<< HEAD
     private void condicionalswitch() {
         System.out.println("------------------------------------------------");
         System.out.println("-       EXPLICACION CONDICIONAL SWITCH         -");
@@ -719,3 +801,6 @@ public class MenuPrincipal {
 
 
 
+=======
+}
+>>>>>>> ba39fbbefb83bab6cad69aec7cc2f91d996faec3
